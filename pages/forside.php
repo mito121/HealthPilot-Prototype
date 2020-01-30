@@ -26,7 +26,7 @@
         <div class="row mx-1 pt-4 result-box">
 
             <div class="col-4">
-                <input type="text" class="form-control" placeholder="Søg på by eller postnummer" ng-model="searchQuery">
+                <input type="text" class="form-control" placeholder="Indtast dit postnummer" ng-model="searchQuery">
             </div>
 
             <!-- results -->
