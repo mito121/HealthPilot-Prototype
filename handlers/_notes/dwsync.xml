@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="logoff.php" server="ftp.topwebdesign.dk" local="132107842074611550" remote="132083745600000000" Dst="2" />
+<file name="logon.php" server="ftp.topwebdesign.dk" local="132113188712565288" remote="132113150400000000" Dst="2" />
+<file name="rate.php" server="ftp.topwebdesign.dk" local="132107842076110864" remote="132093786600000000" Dst="2" />
+<file name="search_ajax.php" server="ftp.topwebdesign.dk" local="132131888999775211" remote="132131817000000000" Dst="2" />
+<file name="search_ratings.php" server="ftp.topwebdesign.dk" local="132107842079179372" remote="132091555200000000" Dst="2" />
+<file name="all_practices.php" server="ftp.topwebdesign.dk" local="132129270468386711" remote="132129198000000000" Dst="2" />
+<file name="all_cities.php" server="ftp.topwebdesign.dk" local="132107842061487862" remote="132104374800000000" Dst="2" />
+<file name="all_owners.php" server="ftp.topwebdesign.dk" local="132107842063127089" remote="132105037200000000" Dst="2" />
+<file name="all_inst.php" server="ftp.topwebdesign.dk" local="132107842062527331" remote="132105103800000000" Dst="2" />
+<file name="all_users.php" server="ftp.topwebdesign.dk" local="132107842067065184" remote="132104382000000000" Dst="2" />
+<file name="all_roles.php" server="ftp.topwebdesign.dk" local="132107842065385962" remote="132082776600000000" Dst="2" />
+<file name="search_cities.php" server="ftp.topwebdesign.dk" local="132107842077680082" remote="132082776600000000" Dst="2" />
+<file name="search_practices.php" server="ftp.topwebdesign.dk" local="132129281909642799" remote="132129209400000000" Dst="2" />
+<file name="get_inst_highscore.php" server="ftp.topwebdesign.dk" local="132121670024084246" remote="132121597800000000" Dst="2" />
+<file name="fb_login.php" server="ftp.topwebdesign.dk" local="132107842070313642" remote="132083766000000000" Dst="2" />
+<file name="all_comments.php" server="ftp.topwebdesign.dk" local="132107842061567824" remote="132097518600000000" Dst="2" />
+<file name="all_ratings.php" server="ftp.topwebdesign.dk" local="132107842064226638" remote="132100818000000000" Dst="2" />
+<file name="create_user.php" server="ftp.topwebdesign.dk" local="132107842068534466" remote="132107754000000000" Dst="2" />
+<file name="institution_data.php" server="ftp.topwebdesign.dk" local="132107842073192240" remote="132091555200000000" Dst="2" />
+<file name="user_options.php" server="ftp.topwebdesign.dk" local="132107842082239978" remote="132104382000000000" Dst="2" />
+<file name="inst_avg_scores.php" server="ftp.topwebdesign.dk" local="132107842073132289" remote="132100103400000000" Dst="2" />
+<file name="all_user_ratings.php" server="ftp.topwebdesign.dk" local="132107842065535901" remote="132100867800000000" Dst="2" />
+<file name="user_avg_scores.php" server="ftp.topwebdesign.dk" local="132107842080918530" remote="132100886400000000" Dst="2" />
+<file name="create_inst.php" server="ftp.topwebdesign.dk" local="132107842067125153" remote="132106783800000000" Dst="2" />
+<file name="update_inst.php" server="ftp.topwebdesign.dk" local="132107842080748608" remote="132105234600000000" Dst="2" />
+<file name="delete_inst.php" server="ftp.topwebdesign.dk" local="132131219066311750" remote="132131146800000000" Dst="2" />
+<file name="user_update.php" server="ftp.topwebdesign.dk" local="132107842082859681" remote="132106744200000000" Dst="2" />
+<file name="delete_user.php" server="ftp.topwebdesign.dk" local="132131069365640906" remote="132130996800000000" Dst="2" />
+<file name="select_user.php" server="ftp.topwebdesign.dk" local="132122452460314020" remote="132122380200000000" Dst="2" />
+<file name="single_inst.php" server="ftp.topwebdesign.dk" local="132128761723423634" remote="132128689200000000" Dst="2" />
+<file name="get_existing_text.php" server="ftp.topwebdesign.dk" local="132125081541901638" remote="132125009400000000" Dst="2" />
+<file name="get_existing_rating.php" server="ftp.topwebdesign.dk" local="132122810230594711" remote="132122737800000000" Dst="2" />
+<file name="facebook_logon.php" server="ftp.topwebdesign.dk" local="132113962338502000" remote="132113890200000000" Dst="2" />
+<file name="facebook_connect.php" server="ftp.topwebdesign.dk" local="132113934245684025" remote="132113875200000000" Dst="2" />
+<file name="user_avg_total_score.php" server="ftp.topwebdesign.dk" local="132125025640877814" remote="132124953600000000" Dst="2" />
+<file name="count_ratings_inst.php" server="ftp.topwebdesign.dk" local="132125092162037592" remote="132125019600000000" Dst="2" />
+<file name="all_prices.php" server="ftp.topwebdesign.dk" local="132127029156468433" remote="132126957000000000" Dst="2" />
+<file name="get_open_hours.php" server="ftp.topwebdesign.dk" local="132126797241508395" remote="132126724800000000" Dst="2" />
+<file name="get_num_ratings.php" server="ftp.topwebdesign.dk" local="132127859358254686" remote="132127786800000000" Dst="2" />
+</dwsync>

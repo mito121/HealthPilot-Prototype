@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untitled Document</title>
+<link href="../css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+<link href="../jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="../jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="../jQueryAssets/jquery.ui.progressbar.min.css" rel="stylesheet" type="text/css">
+<script src="../jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="../jQueryAssets/jquery.ui-1.10.4.progressbar.min.js"></script>
+</head>
+<body>
+<div class="container">
+
+	
+<div id="Progressbar1"></div>
+<script type="text/javascript">
+$(function() {
+	$( "#Progressbar1" ).progressbar(); 
+});
+</script>
+
+  <br><br>
+  IP: <span id="user_ip"></span><br>
+  Country code: <span id="user_countrycode"></span><br>
+  City code: <span id="user_city"></span><br>
+Accuracy: <span id="user_accuracy"></span><br>
+	
+<p>&nbsp;</p>
+<p>---------------------------------------------------------------------------------- </p>
+
+
+<button onclick="getLocation()">Try It</button>
+<p id="demo"></p>
+
+	
+	
+<script type="application/javascript"><!-- 1 geoip -->
+  function geoip(json){
+    var userip      = document.getElementById("user_ip");
+    var countrycode = document.getElementById("user_countrycode");
+    var city 				= document.getElementById("user_city");
+    var accuracy 		= document.getElementById("user_accuracy");
+    userip.textContent      = json.ip;
+    countrycode.textContent = json.country_code;
+    city.textContent = json.city;
+    accuracy.textContent = json.accuracy;
+  }
+</script>
+<script async src="https://get.geojs.io/v1/ip/geo.js"></script>
+
+
+
+<script type="application/javascript"><!-- 2 html -->
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition, showError);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+
+function showError(error) {
+  switch(error.code) {
+    case error.PERMISSION_DENIED:
+      x.innerHTML = "User denied the request for Geolocation."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML = "Location information is unavailable."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML = "The request to get user location timed out."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML = "An unknown error occurred."
+      break;
+  }
+}
+</script>
+</div>
+
+</body>
+</html>
